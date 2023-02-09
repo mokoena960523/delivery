@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>home</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<!-- header section starts -->
+	<header class="header">
+		
+		<section class="flex">
+			
+			<a href="#home" class="logo"> mokoena </a>
+
+			<nav class="navbar">
+				<a href="#home">home</a>
+				<a href="#about">about</a>
+				<a href="#menu">menu</a>
+				<a href="#order">orders</a>
+				<a href="#faq">faq</a>
+			</nav>
+
+			<div class="icons">
+				<div id="menu-btn" class="fas fa-bars"></div>
+				<div id="user-btn" class="fas fa-user"></div>
+				<div id="order-btn" class="fas fa-box"></div>
+				<div id="cart-btn" class="fas fa-shopping-cart"><span>(2)</span></div>
+			</div>
+
+		</section>
+
+	</header>
+	<!-- header section ends -->
+
+	<div class="user-account">
+		
+		<section>
+			
+			<div id="close-account"><span>close</span></div>
+
+			<div class="user">
+				<p> <span>You are not logged in now!</span> </p>
+			</div>
+
+			<dov class="display-orders">
+				<p>pizza <span> [ R51.00 x 2 ]</span></p>	
+				<p>burger <span> [ R75.00 x 2 ]</span></p>	
+				<p>Redbull 500ml <span> [ R30.00 x 3 ]</span></p>	
+				<p>Doritos <span> [ R25.00 x 1 ] </span></p>	
+			</dov>
+
+			<div class="flex">
+				
+				<form action="" method="post">
+					<h3>login now</h3>
+					<input type="email" name="email" required="" class="box" placeholder="Email address" maxlength="50">
+					<input type="password" name="pass" class="box" required placeholder="password" maxlength="20">
+					<input type="submit" name="login" value="login now" class="btn">
+				</form>
+
+				<form action="" method="post">
+					<h3>signup now</h3>
+					<input type="text" name="name" required="" class="box" placeholder="full Name" maxlength="20">
+					<input type="email" name="email" required="" class="box" placeholder="Email address" maxlength="50">
+					<input type="password" name="pass" class="box" required placeholder="Password" maxlength="20">
+					<input type="password" name="cpass" class="box" required placeholder="Confirm Password" maxlength="20">
+					<input type="submit" name="login" value="signup now" class="btn">
+				</form>
+
+			</div>
+
+		</section>
+
+	</div>
+
+	<div class="my-orders">
+		
+		<section>
+			
+			<div id="close-orders"> <span>close</span></div>
+
+			<h3 class="title">my orders</h3>
+
+			<div class="box">
+				<p>Placed on : <span>3/02/2023</span></p>	
+				<p>Name : <span>Sonnyboy mokoena</span></p>	
+				<p>Phone number : <span>0608576638</span></p>	
+				<p>Address : <span>street name [ kofifi street ], house no. 20111, semorishi, Limpopo, South Africa - 0748</span></p>	
+				<p>Payment method : <span>card on delivery</span></p>	
+				<p>Your orders : <span>pizza R51 x 2, burger R75 x 2, RedBull 500ml R30 x 3, Doritos R25 x 1</span></p>
+				<p>total price : <span>R367.00</span></p>	
+				<p>Payment status : <span style="color: indianred;">pending</span></p>	
+			</div>
+
+			<div class="box">
+				<p>Placed on : <span>3/02/2023</span></p>	
+				<p>Name : <span>Sonnyboy mokoena</span></p>	
+				<p>Phone number : <span>0608576638</span></p>	
+				<p>Address : <span>street name [ kofifi street ], house no. 20111, semorishi, Limpopo, South Africa - 0748</span></p>	
+				<p>Payment method : <span>card on delivery</span></p>	
+				<p>Your orders : <span>pizza R51 x 2, burger R75 x 2, RedBull 500ml R30 x 3, Doritos R25 x 1</span></p>
+				<p>total price : <span>R367.00</span></p>	
+				<p>Payment status : <span style="color: indianred;">pending</span></p>	
+			</div>
+
+			<div class="box">
+				<p>Placed on : <span>3/02/2023</span></p>	
+				<p>Name : <span>Sonnyboy mokoena</span></p>	
+				<p>Phone number : <span>0608576638</span></p>	
+				<p>Address : <span>street name [ kofifi street ], house no. 20111, semorishi, Limpopo, South Africa - 0748</span></p>	
+				<p>Payment method : <span>card on delivery</span></p>	
+				<p>Your orders : <span>pizza R51 x 2, burger R75 x 2, RedBull 500ml R30 x 3, Doritos R25 x 1</span></p>
+				<p>total price : <span>R367.00</span></p>	
+				<p>Payment status : <span style="color: indianred;">pending</span></p>	
+			</div>
+
+		</section>
+
+	</div>
+
+	<div class="shopping-cart">
+
+		<section>
+			<div id="close-cart"> <span>close</span></div>
+
+			<div class="box">
+				
+				<a href="#" class="fas fa-trash"></a>
+				<img src="images/pizza.png" alt="">
+
+				<div class="content">
+					<p>pizza <span>[ R51 x 2 ]</span></p>
+					<form action="" method="post">
+						<input type="number" name="qty" class="qty" min="1" value="2" max="100">
+						<button type="submit" class="fas fa-edit" name="update_qty"></button>
+					</form>
+				</div>
+
+			</div>
+
+			<div class="box">
+				
+				<a href="#" class="fas fa-trash"></a>
+				<img src="images/pizza.png" alt="">
+
+				<div class="content">
+					<p>pizza <span>[ R51 x 2 ]</span></p>
+					<form action="" method="post">
+						<input type="number" name="qty" class="qty" min="1" value="2" max="100">
+						<button type="submit" class="fas fa-edit" name="update_qty"></button>
+					</form>
+				</div>
+
+			</div>
+
+			<a href="#order" class="btn"> order now </a>
+		</section>		
+
+	</div>
+	
+	<div class="home-bg">
+		
+		<section class="home">
+			
+			<div class="slide-container">
+
+				<div class="slide active">
+					<div class="image">
+						<img src="images/pizza.png" alt="">
+					</div>
+					<div class="content">
+						<h3>Home made pizza</h3>
+						<div class="fas fa-angle-left" onclick="prev()"></div>
+						<div class="fas fa-angle-right" onclick="next()"></div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="image">
+						<img src="images/burger.png" alt="">
+					</div>
+					<div class="content">
+						<h3>cheezy burger</h3>
+						<div class="fas fa-angle-left" onclick="prev()"></div>
+						<div class="fas fa-angle-right" onclick="next()"></div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="image">
+						<img src="images/roasted_chicken.png" alt="">
+					</div>
+					<div class="content">
+						<h3>Roasted chicken</h3>
+						<div class="fas fa-angle-left" onclick="prev()"></div>
+						<div class="fas fa-angle-right" onclick="next()"></div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+	<!-- About Section starts -->
+	<section class="about" id="about">
+		
+		<h1 class="heading">about us</h1>
+
+		<div class="box-container">
+			
+			<div class="box">
+				<img src="images/img1.png" alt="">
+				<h3>made and prepared with love</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="#menu" class="btn">our menu</a>
+			</div>
+
+			<div class="box">
+				<img src="images/img2.png" alt="">
+				<h3>30 minutes delivery</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="#menu" class="btn">our menu</a>
+			</div>
+
+			<div class="box">
+				<img src="images/img3.png" alt="">
+				<h3>share with friends and family</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="#menu" class="btn">our menu</a>
+			</div>
+
+
+		</div>
+	</section>
+	<!-- About Section ends -->
+	
+	<!-- menu section starts -->
+	<section id="menu" class="menu">
+		
+		<h1 class="heading">our menu</h1>
+
+		<div class="box-container">
+			
+			<div class="box">
+				
+				<div class="price">R<span>51</span></div>
+				<img src="images/pizza.png" alt="">
+				<div class="name">Pizza</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>90</span></div>
+				<img src="images/roasted_chicken.png" alt="">
+				<div class="name">Roasted chicken</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>30</span></div>
+				<img src="images/hot_dog.png" alt="">
+				<div class="name">Hot Dog</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>30</span></div>
+				<img src="images/coke_can.png" alt="">
+				<div class="name">coke 440ml</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>20</span></div>
+				<img src="images/powerade.png" alt="">
+				<div class="name">Powerade</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>25</span></div>
+				<img src="images/doritos.png" alt="">
+				<div class="name">Doritos chips</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>22</span></div>
+				<img src="images/simba.png" alt="">
+				<div class="name">Simba chips</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>30</span></div>
+				<img src="images/lays.png" alt="">
+				<div class="name">Lays chips</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+			<div class="box">
+				
+				<div class="price">R<span>15</span></div>
+				<img src="images/guava.png" alt="">
+				<div class="name">Guava juice</div>
+
+				<form method="post" action="">
+					<input type="number" name="qty" min="1" max="100" class="qty" value="2">
+					<input type="submit" name="add_to_cart" value="add to cart" class="btn">
+				</form>
+			</div>
+
+		</div>
+
+	</section>
+	<!-- menu section ends -->
+
+	<!-- order section starts -->
+
+	<section id="order" class="order">
+		
+		<h1 class="heading">order now</h1>
+
+		<form method="post" action="">
+			<div class="display-orders">
+				<p>pizza <span>[ R51 x 2 ]</span></p>
+				<p>pizza <span>[ R51 x 2 ]</span></p>
+			</div>
+			<div class="flex">
+			
+				<div class="inputBox">
+					<span>your name : </span>
+					<input type="text" name="name" placeholder="enter your name" required="" maxlength="20" class="box"> 
+				</div>
+				<div class="inputBox">
+					<span>your phone number: </span>
+					<input type="number" name="number" placeholder="enter your phone number" required="" min="0" class="box"> 
+				</div>
+				<div class="inputBox">
+					<span>Payment method</span>
+					<select class="box" name="method">
+						<option value="cash on delivery">cash on delivery</option>
+						<option value="card on delivery">card on delivery</option>
+					</select>
+				</div>
+				<div class="inputBox">
+					<span>address line 01: </span>
+					<input type="number" name="house" placeholder="e.g house no." required="" maxlength="50" class="box"> 
+				</div>
+				<div class="inputBox">
+					<span>address line 02: </span>
+					<input type="text" name="street" placeholder="e.g street name." required="" maxlength="50" class="box"> 
+				</div>
+				<div class="inputBox">
+					<span>pin code: </span>
+					<input type="number" name="pin_code" placeholder="e.g 1234." required="" min="0" class="box"> 
+				</div>
+			</div>
+			<input type="submit" name="order" value="add now" class="btn">
+		</form>
+	</section>
+
+	<!-- order section ends -->
+	
+	<!-- faq section starts -->
+
+	<section class="faq" id="faq">
+		
+		<h1 class="heading">FAQ</h1>
+
+		<div class="accordion-container">
+			
+			<div class="accordion active">
+				<div class="accordion-heading">
+					<span>How does it work?</span>
+					<i class="fas fa-angle-down"></i>
+				</div>
+				<p class="accordion-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+			
+			<div class="accordion">
+				<div class="accordion-heading">
+					<span>How long does it take to deliver?</span>
+					<i class="fas fa-angle-down"></i>
+				</div>
+				<p class="accordion-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+
+			<div class="accordion">
+				<div class="accordion-heading">
+					<span>Can i order for family and friends?</span>
+					<i class="fas fa-angle-down"></i>
+				</div>
+				<p class="accordion-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+		
+			<div class="accordion">
+				<div class="accordion-heading">
+					<span>How to cancel order?</span>
+					<i class="fas fa-angle-down"></i>
+				</div>
+				<p class="accordion-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+
+			<div class="accordion">		
+				<div class="accordion-heading">
+					<span>How does it work?</span>
+					<i class="fas fa-angle-down"></i>
+				</div>
+				<p class="accordion-content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- faq section ends -->
+
+	<!-- footer section starts -->
+	<section class="footer">
+		
+		<div class="box-container">
+			
+			<div class="box">
+				<i class="fas fa-phone"></i>
+				<h3>phone number</h3>
+				<p>060-857-6638</p>
+				<p>079-667-3101</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-map-maker-alt"></i>
+				<h3>our address</h3>
+				<p>South Africa, Limpopo, polokwane, Ga-matlala, Ga-seema, 0748</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-clock"></i>
+				<h3>working hours</h3>
+				<p>09:00am - 05:00pm</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-envelope"></i>
+				<h3>email address</h3>
+				<p>mmabotse28@gmail.com</p>
+				<p>mokoena960523@gmail.com</p>
+			</div>
+
+		</div>
+
+		<div class="credit">
+			&copy; copyright @ 2023 by <span>mr. mokoena sir</span> | all right reserved
+		</div>
+	</section>
+	<!-- footer section ends -->
+	
+	<!-- custome script file -->
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+
+	
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
